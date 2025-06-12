@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/dream/dream.egg-info
+writing ../build/dream/dream.egg-info/PKG-INFO
+writing dependency_links to ../build/dream/dream.egg-info/dependency_links.txt
+writing entry points to ../build/dream/dream.egg-info/entry_points.txt
+writing requirements to ../build/dream/dream.egg-info/requires.txt
+writing top-level names to ../build/dream/dream.egg-info/top_level.txt
+writing manifest file '../build/dream/dream.egg-info/SOURCES.txt'
+reading manifest file '../build/dream/dream.egg-info/SOURCES.txt'
+writing manifest file '../build/dream/dream.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jmj/dream_ws/build/dream/build
+creating /home/jmj/dream_ws/build/dream/build/lib
+creating /home/jmj/dream_ws/build/dream/build/lib/dream
+copying dream/__init__.py -> /home/jmj/dream_ws/build/dream/build/lib/dream
+copying dream/bridge_node.py -> /home/jmj/dream_ws/build/dream/build/lib/dream
+copying dream/mapper.py -> /home/jmj/dream_ws/build/dream/build/lib/dream
+running install
+running install_lib
+creating /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream
+copying /home/jmj/dream_ws/build/dream/build/lib/dream/__init__.py -> /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream
+copying /home/jmj/dream_ws/build/dream/build/lib/dream/bridge_node.py -> /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream
+copying /home/jmj/dream_ws/build/dream/build/lib/dream/mapper.py -> /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream
+byte-compiling /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/bridge_node.py to bridge_node.cpython-310.pyc
+byte-compiling /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/mapper.py to mapper.cpython-310.pyc
+running install_data
+creating /home/jmj/dream_ws/install/dream/share/ament_index
+creating /home/jmj/dream_ws/install/dream/share/ament_index/resource_index
+creating /home/jmj/dream_ws/install/dream/share/ament_index/resource_index/packages
+copying resource/dream -> /home/jmj/dream_ws/install/dream/share/ament_index/resource_index/packages
+copying package.xml -> /home/jmj/dream_ws/install/dream/share/dream
+running install_egg_info
+Copying ../build/dream/dream.egg-info to /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bridge_node script to /home/jmj/dream_ws/install/dream/lib/dream
+Installing mapper script to /home/jmj/dream_ws/install/dream/lib/dream
+writing list of installed files to '/home/jmj/dream_ws/build/dream/install.log'

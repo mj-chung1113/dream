@@ -1,0 +1,11 @@
+/home/jmj/dream_ws/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/ControlModeReport.idl
+/home/jmj/dream_ws/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/Engage.idl
+/home/jmj/dream_ws/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/GearCommand.idl
+/home/jmj/dream_ws/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/GearReport.idl
+/home/jmj/dream_ws/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/HazardLightsCommand.idl
+/home/jmj/dream_ws/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/HazardLightsReport.idl
+/home/jmj/dream_ws/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/SteeringReport.idl
+/home/jmj/dream_ws/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/TurnIndicatorsCommand.idl
+/home/jmj/dream_ws/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/TurnIndicatorsReport.idl
+/home/jmj/dream_ws/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:msg/VelocityReport.idl
+/home/jmj/dream_ws/build/autoware_vehicle_msgs/rosidl_adapter/autoware_vehicle_msgs:srv/ControlModeCommand.idl

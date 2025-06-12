@@ -1,0 +1,12 @@
+{
+  "package_name": "autoware_sensing_msgs",
+  "non_idl_tuples": [
+    "/home/jmj/dream_ws/autoware_msgs/autoware_sensing_msgs:msg/GnssInsOrientation.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_sensing_msgs:msg/GnssInsOrientationStamped.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_sensing_msgs:msg/RadarClassification.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_sensing_msgs:msg/RadarFieldInfo.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_sensing_msgs:msg/RadarInfo.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_sensing_msgs:msg/RadarObject.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_sensing_msgs:msg/RadarObjects.msg"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "package_name": "autoware_localization_msgs",
+  "non_idl_tuples": [
+    "/home/jmj/dream_ws/autoware_msgs/autoware_localization_msgs:msg/KinematicState.msg"
+  ]
+}

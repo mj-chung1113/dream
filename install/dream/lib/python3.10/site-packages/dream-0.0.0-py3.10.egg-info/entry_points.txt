@@ -1,0 +1,4 @@
+[console_scripts]
+bridge_node = dream.bridge_node:main
+mapper = dream.mapper:main
+

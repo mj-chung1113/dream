@@ -1,0 +1,24 @@
+{
+  "package_name": "autoware_perception_msgs",
+  "non_idl_tuples": [
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/DetectedObject.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/DetectedObjectKinematics.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/DetectedObjects.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/ObjectClassification.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/PredictedObject.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/PredictedObjectKinematics.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/PredictedObjects.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/PredictedPath.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/PredictedTrafficLightState.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/Shape.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/TrackedObject.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/TrackedObjectKinematics.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/TrackedObjects.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/TrafficLightElement.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/TrafficLightGroup.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/TrafficLightGroupArray.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/TrafficSignalElement.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/TrafficSignal.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs:msg/TrafficSignalArray.msg"
+  ]
+}

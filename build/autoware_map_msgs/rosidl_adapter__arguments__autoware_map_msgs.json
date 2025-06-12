@@ -1,0 +1,18 @@
+{
+  "package_name": "autoware_map_msgs",
+  "non_idl_tuples": [
+    "/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs:msg/AreaInfo.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs:msg/LaneletMapBin.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs:msg/LaneletMapMetaData.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs:msg/LaneletMapCellMetaData.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs:msg/MapProjectorInfo.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs:msg/PointCloudMapCellWithID.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs:msg/PointCloudMapCellMetaData.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs:msg/PointCloudMapCellMetaDataWithID.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs:msg/PointCloudMapMetaData.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs:srv/GetPartialPointCloudMap.srv",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs:srv/GetDifferentialPointCloudMap.srv",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs:srv/GetSelectedPointCloudMap.srv",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs:srv/GetSelectedLanelet2Map.srv"
+  ]
+}

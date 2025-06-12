@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from autoware_v2x_msgs/msg/VirtualGateStatus.msg
+// generated code does not contain a copyright notice
+
+#include "autoware_v2x_msgs/msg/VirtualGateAreaStatus.idl"
+
+module autoware_v2x_msgs {
+  module msg {
+    struct VirtualGateStatus {
+      sequence<autoware_v2x_msgs::msg::VirtualGateAreaStatus> areas;
+    };
+  };
+};

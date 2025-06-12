@@ -1,0 +1,4 @@
+/home/jmj/dream_ws/build/autoware_v2x_msgs/rosidl_adapter/autoware_v2x_msgs:msg/VirtualGateAreaCommand.idl
+/home/jmj/dream_ws/build/autoware_v2x_msgs/rosidl_adapter/autoware_v2x_msgs:msg/VirtualGateAreaStatus.idl
+/home/jmj/dream_ws/build/autoware_v2x_msgs/rosidl_adapter/autoware_v2x_msgs:msg/VirtualGateCommand.idl
+/home/jmj/dream_ws/build/autoware_v2x_msgs/rosidl_adapter/autoware_v2x_msgs:msg/VirtualGateStatus.idl

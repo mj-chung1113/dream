@@ -1,0 +1,13 @@
+{
+  "package_name": "autoware_planning_msgs",
+  "non_idl_tuples": [
+    "/home/jmj/dream_ws/autoware_msgs/autoware_planning_msgs:msg/LaneletPrimitive.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_planning_msgs:msg/LaneletRoute.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_planning_msgs:msg/LaneletSegment.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_planning_msgs:msg/PoseWithUuidStamped.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_planning_msgs:msg/Trajectory.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_planning_msgs:msg/TrajectoryPoint.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_planning_msgs:msg/Path.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_planning_msgs:msg/PathPoint.msg"
+  ]
+}

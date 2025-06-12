@@ -1,0 +1,9 @@
+{
+  "package_name": "autoware_control_msgs",
+  "non_idl_tuples": [
+    "/home/jmj/dream_ws/autoware_msgs/autoware_control_msgs:msg/Control.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_control_msgs:msg/ControlHorizon.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_control_msgs:msg/Lateral.msg",
+    "/home/jmj/dream_ws/autoware_msgs/autoware_control_msgs:msg/Longitudinal.msg"
+  ]
+}

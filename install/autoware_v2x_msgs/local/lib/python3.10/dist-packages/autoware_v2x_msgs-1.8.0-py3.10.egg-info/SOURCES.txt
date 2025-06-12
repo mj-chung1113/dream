@@ -1,0 +1,11 @@
+setup.py
+autoware_v2x_msgs/__init__.py
+autoware_v2x_msgs.egg-info/PKG-INFO
+autoware_v2x_msgs.egg-info/SOURCES.txt
+autoware_v2x_msgs.egg-info/dependency_links.txt
+autoware_v2x_msgs.egg-info/top_level.txt
+autoware_v2x_msgs/msg/__init__.py
+autoware_v2x_msgs/msg/_virtual_gate_area_command.py
+autoware_v2x_msgs/msg/_virtual_gate_area_status.py
+autoware_v2x_msgs/msg/_virtual_gate_command.py
+autoware_v2x_msgs/msg/_virtual_gate_status.py

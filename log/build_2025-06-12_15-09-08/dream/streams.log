@@ -1,0 +1,41 @@
+[1.063s] Invoking command in '/home/jmj/dream_ws/dream': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/build/dream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jmj/dream_ws/install/dream/lib/python3.10/site-packages:/home/jmj/dream_ws/install/autoware_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dream build --build-base /home/jmj/dream_ws/build/dream/build install --record /home/jmj/dream_ws/build/dream/install.log --single-version-externally-managed install_data
+[1.340s] running egg_info
+[1.341s] creating ../build/dream/dream.egg-info
+[1.341s] writing ../build/dream/dream.egg-info/PKG-INFO
+[1.341s] writing dependency_links to ../build/dream/dream.egg-info/dependency_links.txt
+[1.341s] writing entry points to ../build/dream/dream.egg-info/entry_points.txt
+[1.341s] writing requirements to ../build/dream/dream.egg-info/requires.txt
+[1.341s] writing top-level names to ../build/dream/dream.egg-info/top_level.txt
+[1.343s] writing manifest file '../build/dream/dream.egg-info/SOURCES.txt'
+[1.345s] reading manifest file '../build/dream/dream.egg-info/SOURCES.txt'
+[1.345s] writing manifest file '../build/dream/dream.egg-info/SOURCES.txt'
+[1.345s] running build
+[1.345s] running build_py
+[1.345s] creating /home/jmj/dream_ws/build/dream/build
+[1.345s] creating /home/jmj/dream_ws/build/dream/build/lib
+[1.345s] creating /home/jmj/dream_ws/build/dream/build/lib/dream
+[1.345s] copying dream/__init__.py -> /home/jmj/dream_ws/build/dream/build/lib/dream
+[1.346s] copying dream/bridge_node.py -> /home/jmj/dream_ws/build/dream/build/lib/dream
+[1.348s] copying dream/mapper.py -> /home/jmj/dream_ws/build/dream/build/lib/dream
+[1.348s] running install
+[1.348s] running install_lib
+[1.348s] creating /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream
+[1.349s] copying /home/jmj/dream_ws/build/dream/build/lib/dream/__init__.py -> /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream
+[1.349s] copying /home/jmj/dream_ws/build/dream/build/lib/dream/bridge_node.py -> /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream
+[1.349s] copying /home/jmj/dream_ws/build/dream/build/lib/dream/mapper.py -> /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream
+[1.349s] byte-compiling /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/__init__.py to __init__.cpython-310.pyc
+[1.349s] byte-compiling /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/bridge_node.py to bridge_node.cpython-310.pyc
+[1.349s] byte-compiling /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/mapper.py to mapper.cpython-310.pyc
+[1.349s] running install_data
+[1.349s] creating /home/jmj/dream_ws/install/dream/share/ament_index
+[1.349s] creating /home/jmj/dream_ws/install/dream/share/ament_index/resource_index
+[1.349s] creating /home/jmj/dream_ws/install/dream/share/ament_index/resource_index/packages
+[1.349s] copying resource/dream -> /home/jmj/dream_ws/install/dream/share/ament_index/resource_index/packages
+[1.349s] copying package.xml -> /home/jmj/dream_ws/install/dream/share/dream
+[1.349s] running install_egg_info
+[1.351s] Copying ../build/dream/dream.egg-info to /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream-0.0.0-py3.10.egg-info
+[1.352s] running install_scripts
+[1.375s] Installing bridge_node script to /home/jmj/dream_ws/install/dream/lib/dream
+[1.375s] Installing mapper script to /home/jmj/dream_ws/install/dream/lib/dream
+[1.375s] writing list of installed files to '/home/jmj/dream_ws/build/dream/install.log'
+[1.417s] Invoked command in '/home/jmj/dream_ws/dream' returned '0': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/build/dream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jmj/dream_ws/install/dream/lib/python3.10/site-packages:/home/jmj/dream_ws/install/autoware_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dream build --build-base /home/jmj/dream_ws/build/dream/build install --record /home/jmj/dream_ws/build/dream/install.log --single-version-externally-managed install_data

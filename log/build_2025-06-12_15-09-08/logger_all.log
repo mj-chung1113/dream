@@ -1,0 +1,955 @@
+[0.075s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.075s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77594eff7100>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77594f12f280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77594f12f280>>, mixin_verb=('build',))
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.174s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jmj/dream_ws'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_common_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_common_msgs) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_common_msgs) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_common_msgs) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_common_msgs) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_common_msgs) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_common_msgs) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_common_msgs) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_common_msgs) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'autoware_msgs/autoware_common_msgs' with type 'ros.ament_cmake' and name 'autoware_common_msgs'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_control_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_control_msgs) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_control_msgs) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_control_msgs) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_control_msgs) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_control_msgs) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_control_msgs) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_control_msgs) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_control_msgs) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'autoware_msgs/autoware_control_msgs' with type 'ros.ament_cmake' and name 'autoware_control_msgs'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_localization_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_localization_msgs) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_localization_msgs) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_localization_msgs) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_localization_msgs) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_localization_msgs) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_localization_msgs) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_localization_msgs) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_localization_msgs) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'autoware_msgs/autoware_localization_msgs' with type 'ros.ament_cmake' and name 'autoware_localization_msgs'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_map_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_map_msgs) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_map_msgs) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_map_msgs) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_map_msgs) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_map_msgs) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_map_msgs) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_map_msgs) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_map_msgs) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'autoware_msgs/autoware_map_msgs' with type 'ros.ament_cmake' and name 'autoware_map_msgs'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_msgs) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_msgs) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_msgs) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_msgs) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_msgs) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_msgs) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_msgs) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_msgs) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'autoware_msgs/autoware_msgs' with type 'ros.ament_cmake' and name 'autoware_msgs'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_perception_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_perception_msgs) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_perception_msgs) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_perception_msgs) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_perception_msgs) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_perception_msgs) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_perception_msgs) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_perception_msgs) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_perception_msgs) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'autoware_msgs/autoware_perception_msgs' with type 'ros.ament_cmake' and name 'autoware_perception_msgs'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_planning_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_planning_msgs) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_planning_msgs) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_planning_msgs) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_planning_msgs) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_planning_msgs) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_planning_msgs) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_planning_msgs) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_planning_msgs) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'autoware_msgs/autoware_planning_msgs' with type 'ros.ament_cmake' and name 'autoware_planning_msgs'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_sensing_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_sensing_msgs) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_sensing_msgs) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_sensing_msgs) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_sensing_msgs) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_sensing_msgs) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_sensing_msgs) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_sensing_msgs) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_sensing_msgs) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'autoware_msgs/autoware_sensing_msgs' with type 'ros.ament_cmake' and name 'autoware_sensing_msgs'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_system_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_system_msgs) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_system_msgs) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_system_msgs) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_system_msgs) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_system_msgs) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_system_msgs) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_system_msgs) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_system_msgs) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'autoware_msgs/autoware_system_msgs' with type 'ros.ament_cmake' and name 'autoware_system_msgs'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_v2x_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_v2x_msgs) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_v2x_msgs) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_v2x_msgs) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_v2x_msgs) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_v2x_msgs) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_v2x_msgs) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_v2x_msgs) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_v2x_msgs) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'autoware_msgs/autoware_v2x_msgs' with type 'ros.ament_cmake' and name 'autoware_v2x_msgs'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_vehicle_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_vehicle_msgs) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_vehicle_msgs) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_vehicle_msgs) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_vehicle_msgs) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_vehicle_msgs) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_vehicle_msgs) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_vehicle_msgs) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(autoware_msgs/autoware_vehicle_msgs) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'autoware_msgs/autoware_vehicle_msgs' with type 'ros.ament_cmake' and name 'autoware_vehicle_msgs'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dream) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dream) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dream) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dream) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dream) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dream) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dream) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dream) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dream) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'dream' with type 'ros.ament_python' and name 'dream'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.207s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/jmj/aw_data_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jmj/dream_ws/install/dream' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jmj/aw_data_ws/install/autoware_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jmj/aw_data_ws/install/autoware_vehicle_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jmj/aw_data_ws/install/autoware_v2x_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jmj/aw_data_ws/install/autoware_system_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jmj/aw_data_ws/install/autoware_sensing_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jmj/aw_data_ws/install/autoware_planning_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jmj/aw_data_ws/install/autoware_perception_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jmj/aw_data_ws/install/autoware_map_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jmj/aw_data_ws/install/autoware_localization_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jmj/aw_data_ws/install/autoware_control_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/jmj/aw_data_ws/install/autoware_common_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jmj/aw_data_ws/install/autoware_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jmj/aw_data_ws/install/autoware_vehicle_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jmj/aw_data_ws/install/autoware_v2x_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jmj/aw_data_ws/install/autoware_system_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.207s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jmj/aw_data_ws/install/autoware_sensing_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.208s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jmj/aw_data_ws/install/autoware_planning_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.208s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jmj/aw_data_ws/install/autoware_perception_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.208s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jmj/aw_data_ws/install/autoware_map_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.208s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jmj/aw_data_ws/install/autoware_localization_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.208s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jmj/aw_data_ws/install/autoware_control_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.208s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jmj/aw_data_ws/install/autoware_common_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.208s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/jmj/dream_ws/install
+[0.209s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 358 installed packages in /opt/ros/humble
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'autoware_common_msgs' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'autoware_common_msgs' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'autoware_common_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'autoware_common_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'autoware_common_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'autoware_common_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'autoware_common_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'autoware_common_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'autoware_common_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_common_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jmj/dream_ws/build/autoware_common_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jmj/dream_ws/install/autoware_common_msgs', 'merge_install': False, 'path': '/home/jmj/dream_ws/autoware_msgs/autoware_common_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'autoware_control_msgs' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'autoware_control_msgs' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'autoware_control_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'autoware_control_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'autoware_control_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_control_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_control_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_control_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_control_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_control_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jmj/dream_ws/build/autoware_control_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jmj/dream_ws/install/autoware_control_msgs', 'merge_install': False, 'path': '/home/jmj/dream_ws/autoware_msgs/autoware_control_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_localization_msgs' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_localization_msgs' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_localization_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_localization_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_localization_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_localization_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_localization_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_localization_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_localization_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_localization_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jmj/dream_ws/build/autoware_localization_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jmj/dream_ws/install/autoware_localization_msgs', 'merge_install': False, 'path': '/home/jmj/dream_ws/autoware_msgs/autoware_localization_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_map_msgs' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_map_msgs' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_map_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_map_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_map_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_map_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_map_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_map_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_map_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_map_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jmj/dream_ws/build/autoware_map_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jmj/dream_ws/install/autoware_map_msgs', 'merge_install': False, 'path': '/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_perception_msgs' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_perception_msgs' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_perception_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_perception_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_perception_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_perception_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_perception_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_perception_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'autoware_perception_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_perception_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jmj/dream_ws/build/autoware_perception_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jmj/dream_ws/install/autoware_perception_msgs', 'merge_install': False, 'path': '/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_planning_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_planning_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jmj/dream_ws/build/autoware_planning_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jmj/dream_ws/install/autoware_planning_msgs', 'merge_install': False, 'path': '/home/jmj/dream_ws/autoware_msgs/autoware_planning_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_sensing_msgs' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_sensing_msgs' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_sensing_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_sensing_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_sensing_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_sensing_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_sensing_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_sensing_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_sensing_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_sensing_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jmj/dream_ws/build/autoware_sensing_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jmj/dream_ws/install/autoware_sensing_msgs', 'merge_install': False, 'path': '/home/jmj/dream_ws/autoware_msgs/autoware_sensing_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_system_msgs' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_system_msgs' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_system_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_system_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_system_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_system_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_system_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_system_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_system_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_system_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jmj/dream_ws/build/autoware_system_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jmj/dream_ws/install/autoware_system_msgs', 'merge_install': False, 'path': '/home/jmj/dream_ws/autoware_msgs/autoware_system_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_v2x_msgs' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_v2x_msgs' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_v2x_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_v2x_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_v2x_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_v2x_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_v2x_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_v2x_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'autoware_v2x_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_v2x_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jmj/dream_ws/build/autoware_v2x_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jmj/dream_ws/install/autoware_v2x_msgs', 'merge_install': False, 'path': '/home/jmj/dream_ws/autoware_msgs/autoware_v2x_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_vehicle_msgs' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_vehicle_msgs' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_vehicle_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_vehicle_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_vehicle_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_vehicle_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_vehicle_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_vehicle_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_vehicle_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_vehicle_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jmj/dream_ws/build/autoware_vehicle_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jmj/dream_ws/install/autoware_vehicle_msgs', 'merge_install': False, 'path': '/home/jmj/dream_ws/autoware_msgs/autoware_vehicle_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dream' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dream' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dream' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dream' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dream' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dream' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dream' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dream' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'dream' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'dream' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jmj/dream_ws/build/dream', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jmj/dream_ws/install/dream', 'merge_install': False, 'path': '/home/jmj/dream_ws/dream', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_msgs' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_msgs' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'autoware_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'autoware_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jmj/dream_ws/build/autoware_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jmj/dream_ws/install/autoware_msgs', 'merge_install': False, 'path': '/home/jmj/dream_ws/autoware_msgs/autoware_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.233s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.234s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jmj/dream_ws/autoware_msgs/autoware_control_msgs' with build type 'ament_cmake'
+[0.234s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jmj/dream_ws/autoware_msgs/autoware_control_msgs'
+[0.236s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.236s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.238s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jmj/dream_ws/autoware_msgs/autoware_planning_msgs' with build type 'ament_cmake'
+[0.238s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jmj/dream_ws/autoware_msgs/autoware_planning_msgs'
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.240s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jmj/dream_ws/autoware_msgs/autoware_common_msgs' with build type 'ament_cmake'
+[0.240s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jmj/dream_ws/autoware_msgs/autoware_common_msgs'
+[0.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.241s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jmj/dream_ws/autoware_msgs/autoware_localization_msgs' with build type 'ament_cmake'
+[0.241s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jmj/dream_ws/autoware_msgs/autoware_localization_msgs'
+[0.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs' with build type 'ament_cmake'
+[0.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jmj/dream_ws/autoware_msgs/autoware_map_msgs'
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.244s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs' with build type 'ament_cmake'
+[0.244s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs'
+[0.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jmj/dream_ws/autoware_msgs/autoware_sensing_msgs' with build type 'ament_cmake'
+[0.246s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jmj/dream_ws/autoware_msgs/autoware_sensing_msgs'
+[0.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.247s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jmj/dream_ws/autoware_msgs/autoware_system_msgs' with build type 'ament_cmake'
+[0.248s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jmj/dream_ws/autoware_msgs/autoware_system_msgs'
+[0.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.249s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jmj/dream_ws/autoware_msgs/autoware_v2x_msgs' with build type 'ament_cmake'
+[0.249s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jmj/dream_ws/autoware_msgs/autoware_v2x_msgs'
+[0.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_control_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_control_msgs
+[0.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_planning_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_planning_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_planning_msgs
+[0.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_common_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_common_msgs
+[0.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_localization_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_localization_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_localization_msgs
+[0.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_map_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_map_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_map_msgs
+[0.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_perception_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_perception_msgs
+[0.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_sensing_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_sensing_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_sensing_msgs
+[0.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_system_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_system_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_system_msgs
+[0.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_v2x_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_v2x_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_v2x_msgs
+[1.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_common_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_common_msgs
+[1.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_common_msgs -- -j20 -l20
+[1.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_control_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_control_msgs
+[1.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_control_msgs -- -j20 -l20
+[1.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_localization_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_localization_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_localization_msgs
+[1.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_localization_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_localization_msgs -- -j20 -l20
+[1.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_sensing_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_sensing_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_sensing_msgs
+[1.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_sensing_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_sensing_msgs -- -j20 -l20
+[1.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_v2x_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_v2x_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_v2x_msgs
+[1.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_v2x_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_v2x_msgs -- -j20 -l20
+[1.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_planning_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_planning_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_planning_msgs
+[1.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_planning_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_planning_msgs -- -j20 -l20
+[1.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_system_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_system_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_system_msgs
+[1.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_system_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_system_msgs -- -j20 -l20
+[1.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_perception_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_perception_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_perception_msgs
+[1.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_perception_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_perception_msgs -- -j20 -l20
+[1.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_map_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_map_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_map_msgs
+[1.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_map_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_map_msgs -- -j20 -l20
+[6.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_common_msgs -- -j20 -l20
+[6.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_common_msgs
+[6.310s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_common_msgs)
+[6.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_common_msgs
+[6.319s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_common_msgs' for CMake module files
+[6.322s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_common_msgs' for CMake config files
+[6.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_common_msgs', 'cmake_prefix_path')
+[6.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/hook/cmake_prefix_path.ps1'
+[6.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/hook/cmake_prefix_path.dsv'
+[6.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/hook/cmake_prefix_path.sh'
+[6.331s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_common_msgs/lib'
+[6.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_common_msgs', 'ld_library_path_lib')
+[6.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/hook/ld_library_path_lib.ps1'
+[6.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/hook/ld_library_path_lib.dsv'
+[6.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/hook/ld_library_path_lib.sh'
+[6.332s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_common_msgs/bin'
+[6.332s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_common_msgs/lib/pkgconfig/autoware_common_msgs.pc'
+[6.342s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_common_msgs/lib/python3.10/site-packages'
+[6.342s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_common_msgs/bin'
+[6.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/package.ps1'
+[6.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/package.dsv'
+[6.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/package.sh'
+[6.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/package.bash'
+[6.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/package.zsh'
+[6.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_common_msgs/share/colcon-core/packages/autoware_common_msgs)
+[6.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_common_msgs)
+[6.359s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_common_msgs' for CMake module files
+[6.359s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_common_msgs' for CMake config files
+[6.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_common_msgs', 'cmake_prefix_path')
+[6.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/hook/cmake_prefix_path.ps1'
+[6.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/hook/cmake_prefix_path.dsv'
+[6.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/hook/cmake_prefix_path.sh'
+[6.374s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_common_msgs/lib'
+[6.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_common_msgs', 'ld_library_path_lib')
+[6.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/hook/ld_library_path_lib.ps1'
+[6.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/hook/ld_library_path_lib.dsv'
+[6.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/hook/ld_library_path_lib.sh'
+[6.383s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_common_msgs/bin'
+[6.383s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_common_msgs/lib/pkgconfig/autoware_common_msgs.pc'
+[6.383s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_common_msgs/lib/python3.10/site-packages'
+[6.384s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_common_msgs/bin'
+[6.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/package.ps1'
+[6.392s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/package.dsv'
+[6.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/package.sh'
+[6.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/package.bash'
+[6.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_common_msgs/share/autoware_common_msgs/package.zsh'
+[6.395s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_common_msgs/share/colcon-core/packages/autoware_common_msgs)
+[6.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_localization_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_localization_msgs -- -j20 -l20
+[6.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_localization_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_localization_msgs
+[6.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_localization_msgs)
+[6.959s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_localization_msgs' for CMake module files
+[6.959s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_localization_msgs' for CMake config files
+[6.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_localization_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_localization_msgs
+[6.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_localization_msgs', 'cmake_prefix_path')
+[6.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/hook/cmake_prefix_path.ps1'
+[6.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/hook/cmake_prefix_path.dsv'
+[6.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/hook/cmake_prefix_path.sh'
+[6.962s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_localization_msgs/lib'
+[6.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_localization_msgs', 'ld_library_path_lib')
+[6.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/hook/ld_library_path_lib.ps1'
+[6.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/hook/ld_library_path_lib.dsv'
+[6.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/hook/ld_library_path_lib.sh'
+[6.963s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_localization_msgs/bin'
+[6.963s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_localization_msgs/lib/pkgconfig/autoware_localization_msgs.pc'
+[6.963s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_localization_msgs/lib/python3.10/site-packages'
+[6.964s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_localization_msgs/bin'
+[6.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/package.ps1'
+[6.964s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/package.dsv'
+[6.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/package.sh'
+[6.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/package.bash'
+[6.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/package.zsh'
+[6.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_localization_msgs/share/colcon-core/packages/autoware_localization_msgs)
+[6.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_localization_msgs)
+[6.966s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_localization_msgs' for CMake module files
+[6.967s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_localization_msgs' for CMake config files
+[6.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_localization_msgs', 'cmake_prefix_path')
+[6.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/hook/cmake_prefix_path.ps1'
+[6.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/hook/cmake_prefix_path.dsv'
+[6.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/hook/cmake_prefix_path.sh'
+[6.969s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_localization_msgs/lib'
+[6.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_localization_msgs', 'ld_library_path_lib')
+[6.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/hook/ld_library_path_lib.ps1'
+[6.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/hook/ld_library_path_lib.dsv'
+[6.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/hook/ld_library_path_lib.sh'
+[6.970s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_localization_msgs/bin'
+[6.970s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_localization_msgs/lib/pkgconfig/autoware_localization_msgs.pc'
+[6.970s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_localization_msgs/lib/python3.10/site-packages'
+[6.970s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_localization_msgs/bin'
+[6.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/package.ps1'
+[6.971s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/package.dsv'
+[6.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/package.sh'
+[6.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/package.bash'
+[6.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_localization_msgs/share/autoware_localization_msgs/package.zsh'
+[6.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_localization_msgs/share/colcon-core/packages/autoware_localization_msgs)
+[7.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_system_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_system_msgs -- -j20 -l20
+[7.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_system_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_system_msgs
+[7.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_system_msgs)
+[7.933s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_system_msgs' for CMake module files
+[7.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_system_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_system_msgs
+[7.934s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_system_msgs' for CMake config files
+[7.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_system_msgs', 'cmake_prefix_path')
+[7.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/hook/cmake_prefix_path.ps1'
+[7.935s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/hook/cmake_prefix_path.dsv'
+[7.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/hook/cmake_prefix_path.sh'
+[7.936s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_system_msgs/lib'
+[7.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_system_msgs', 'ld_library_path_lib')
+[7.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/hook/ld_library_path_lib.ps1'
+[7.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/hook/ld_library_path_lib.dsv'
+[7.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/hook/ld_library_path_lib.sh'
+[7.948s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_system_msgs/bin'
+[7.948s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_system_msgs/lib/pkgconfig/autoware_system_msgs.pc'
+[7.948s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_system_msgs/lib/python3.10/site-packages'
+[7.948s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_system_msgs/bin'
+[7.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/package.ps1'
+[7.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/package.dsv'
+[7.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/package.sh'
+[7.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/package.bash'
+[7.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/package.zsh'
+[7.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_system_msgs/share/colcon-core/packages/autoware_system_msgs)
+[7.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_system_msgs)
+[7.957s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_system_msgs' for CMake module files
+[7.958s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_system_msgs' for CMake config files
+[7.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_system_msgs', 'cmake_prefix_path')
+[7.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/hook/cmake_prefix_path.ps1'
+[7.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/hook/cmake_prefix_path.dsv'
+[7.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/hook/cmake_prefix_path.sh'
+[7.969s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_system_msgs/lib'
+[7.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_system_msgs', 'ld_library_path_lib')
+[7.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/hook/ld_library_path_lib.ps1'
+[7.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/hook/ld_library_path_lib.dsv'
+[7.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/hook/ld_library_path_lib.sh'
+[7.975s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_system_msgs/bin'
+[7.975s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_system_msgs/lib/pkgconfig/autoware_system_msgs.pc'
+[7.975s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_system_msgs/lib/python3.10/site-packages'
+[7.976s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_system_msgs/bin'
+[7.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/package.ps1'
+[7.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/package.dsv'
+[7.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/package.sh'
+[7.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/package.bash'
+[7.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_system_msgs/share/autoware_system_msgs/package.zsh'
+[7.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_system_msgs/share/colcon-core/packages/autoware_system_msgs)
+[8.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_v2x_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_v2x_msgs -- -j20 -l20
+[8.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_v2x_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_v2x_msgs
+[9.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_v2x_msgs)
+[9.138s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_v2x_msgs' for CMake module files
+[9.139s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_v2x_msgs' for CMake config files
+[9.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_v2x_msgs', 'cmake_prefix_path')
+[9.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/hook/cmake_prefix_path.ps1'
+[9.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/hook/cmake_prefix_path.dsv'
+[9.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/hook/cmake_prefix_path.sh'
+[9.141s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_v2x_msgs/lib'
+[9.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_v2x_msgs', 'ld_library_path_lib')
+[9.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/hook/ld_library_path_lib.ps1'
+[9.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/hook/ld_library_path_lib.dsv'
+[9.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/hook/ld_library_path_lib.sh'
+[9.150s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_v2x_msgs/bin'
+[9.150s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_v2x_msgs/lib/pkgconfig/autoware_v2x_msgs.pc'
+[9.151s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_v2x_msgs/lib/python3.10/site-packages'
+[9.151s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_v2x_msgs/bin'
+[9.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/package.ps1'
+[9.152s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/package.dsv'
+[9.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/package.sh'
+[9.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/package.bash'
+[9.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/package.zsh'
+[9.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_v2x_msgs/share/colcon-core/packages/autoware_v2x_msgs)
+[9.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_v2x_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_v2x_msgs
+[9.160s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_v2x_msgs)
+[9.160s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_v2x_msgs' for CMake module files
+[9.161s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_v2x_msgs' for CMake config files
+[9.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_v2x_msgs', 'cmake_prefix_path')
+[9.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/hook/cmake_prefix_path.ps1'
+[9.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/hook/cmake_prefix_path.dsv'
+[9.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/hook/cmake_prefix_path.sh'
+[9.172s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_v2x_msgs/lib'
+[9.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_v2x_msgs', 'ld_library_path_lib')
+[9.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/hook/ld_library_path_lib.ps1'
+[9.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/hook/ld_library_path_lib.dsv'
+[9.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/hook/ld_library_path_lib.sh'
+[9.179s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_v2x_msgs/bin'
+[9.179s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_v2x_msgs/lib/pkgconfig/autoware_v2x_msgs.pc'
+[9.179s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_v2x_msgs/lib/python3.10/site-packages'
+[9.179s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_v2x_msgs/bin'
+[9.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/package.ps1'
+[9.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/package.dsv'
+[9.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/package.sh'
+[9.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/package.bash'
+[9.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_v2x_msgs/share/autoware_v2x_msgs/package.zsh'
+[9.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_v2x_msgs/share/colcon-core/packages/autoware_v2x_msgs)
+[9.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_control_msgs -- -j20 -l20
+[9.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_control_msgs
+[9.873s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_control_msgs)
+[9.873s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_control_msgs' for CMake module files
+[9.874s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_control_msgs' for CMake config files
+[9.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_control_msgs', 'cmake_prefix_path')
+[9.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/hook/cmake_prefix_path.ps1'
+[9.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/hook/cmake_prefix_path.dsv'
+[9.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/hook/cmake_prefix_path.sh'
+[9.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_control_msgs
+[9.876s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_control_msgs/lib'
+[9.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_control_msgs', 'ld_library_path_lib')
+[9.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/hook/ld_library_path_lib.ps1'
+[9.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/hook/ld_library_path_lib.dsv'
+[9.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/hook/ld_library_path_lib.sh'
+[9.877s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_control_msgs/bin'
+[9.878s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_control_msgs/lib/pkgconfig/autoware_control_msgs.pc'
+[9.879s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_control_msgs/lib/python3.10/site-packages'
+[9.880s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_control_msgs/bin'
+[9.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/package.ps1'
+[9.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/package.dsv'
+[9.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/package.sh'
+[9.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/package.bash'
+[9.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/package.zsh'
+[9.885s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_control_msgs/share/colcon-core/packages/autoware_control_msgs)
+[9.886s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_control_msgs)
+[9.886s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_control_msgs' for CMake module files
+[9.891s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_control_msgs' for CMake config files
+[9.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_control_msgs', 'cmake_prefix_path')
+[9.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/hook/cmake_prefix_path.ps1'
+[9.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/hook/cmake_prefix_path.dsv'
+[9.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/hook/cmake_prefix_path.sh'
+[9.896s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_control_msgs/lib'
+[9.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_control_msgs', 'ld_library_path_lib')
+[9.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/hook/ld_library_path_lib.ps1'
+[9.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/hook/ld_library_path_lib.dsv'
+[9.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/hook/ld_library_path_lib.sh'
+[9.900s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_control_msgs/bin'
+[9.900s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_control_msgs/lib/pkgconfig/autoware_control_msgs.pc'
+[9.900s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_control_msgs/lib/python3.10/site-packages'
+[9.900s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_control_msgs/bin'
+[9.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/package.ps1'
+[9.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/package.dsv'
+[9.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/package.sh'
+[9.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/package.bash'
+[9.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_control_msgs/share/autoware_control_msgs/package.zsh'
+[9.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_control_msgs/share/colcon-core/packages/autoware_control_msgs)
+[9.910s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jmj/dream_ws/dream' with build type 'ament_python'
+[9.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('dream', 'ament_prefix_path')
+[9.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/dream/share/dream/hook/ament_prefix_path.ps1'
+[9.911s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/dream/share/dream/hook/ament_prefix_path.dsv'
+[9.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/dream/share/dream/hook/ament_prefix_path.sh'
+[9.913s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.913s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.384s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jmj/dream_ws/dream'
+[10.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_planning_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_planning_msgs -- -j20 -l20
+[10.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_planning_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_planning_msgs
+[10.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_planning_msgs)
+[10.548s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_planning_msgs' for CMake module files
+[10.548s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_planning_msgs' for CMake config files
+[10.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_planning_msgs', 'cmake_prefix_path')
+[10.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/hook/cmake_prefix_path.ps1'
+[10.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/hook/cmake_prefix_path.dsv'
+[10.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_planning_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_planning_msgs
+[10.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/hook/cmake_prefix_path.sh'
+[10.554s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_planning_msgs/lib'
+[10.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_planning_msgs', 'ld_library_path_lib')
+[10.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/hook/ld_library_path_lib.ps1'
+[10.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/hook/ld_library_path_lib.dsv'
+[10.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/hook/ld_library_path_lib.sh'
+[10.555s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_planning_msgs/bin'
+[10.555s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_planning_msgs/lib/pkgconfig/autoware_planning_msgs.pc'
+[10.556s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_planning_msgs/lib/python3.10/site-packages'
+[10.556s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_planning_msgs/bin'
+[10.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/package.ps1'
+[10.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/package.dsv'
+[10.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/package.sh'
+[10.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/package.bash'
+[10.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/package.zsh'
+[10.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_planning_msgs/share/colcon-core/packages/autoware_planning_msgs)
+[10.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_planning_msgs)
+[10.563s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_planning_msgs' for CMake module files
+[10.564s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_planning_msgs' for CMake config files
+[10.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_planning_msgs', 'cmake_prefix_path')
+[10.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/hook/cmake_prefix_path.ps1'
+[10.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/hook/cmake_prefix_path.dsv'
+[10.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/hook/cmake_prefix_path.sh'
+[10.578s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_planning_msgs/lib'
+[10.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_planning_msgs', 'ld_library_path_lib')
+[10.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/hook/ld_library_path_lib.ps1'
+[10.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/hook/ld_library_path_lib.dsv'
+[10.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/hook/ld_library_path_lib.sh'
+[10.580s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_planning_msgs/bin'
+[10.580s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_planning_msgs/lib/pkgconfig/autoware_planning_msgs.pc'
+[10.580s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_planning_msgs/lib/python3.10/site-packages'
+[10.580s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_planning_msgs/bin'
+[10.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/package.ps1'
+[10.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/package.dsv'
+[10.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/package.sh'
+[10.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/package.bash'
+[10.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_planning_msgs/share/autoware_planning_msgs/package.zsh'
+[10.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_planning_msgs/share/colcon-core/packages/autoware_planning_msgs)
+[10.591s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jmj/dream_ws/autoware_msgs/autoware_vehicle_msgs' with build type 'ament_cmake'
+[10.591s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jmj/dream_ws/autoware_msgs/autoware_vehicle_msgs'
+[10.591s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.591s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_vehicle_msgs': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_msgs:/home/jmj/aw_data_ws/install/autoware_vehicle_msgs:/home/jmj/aw_data_ws/install/autoware_v2x_msgs:/home/jmj/aw_data_ws/install/autoware_system_msgs:/home/jmj/aw_data_ws/install/autoware_sensing_msgs:/home/jmj/aw_data_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_perception_msgs:/home/jmj/aw_data_ws/install/autoware_map_msgs:/home/jmj/aw_data_ws/install/autoware_localization_msgs:/home/jmj/aw_data_ws/install/autoware_control_msgs:/home/jmj/aw_data_ws/install/autoware_common_msgs:/home/jmj/dream_ws/install/dream:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_vehicle_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_vehicle_msgs
+[10.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/dream': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/build/dream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jmj/dream_ws/install/dream/lib/python3.10/site-packages:/home/jmj/dream_ws/install/autoware_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dream build --build-base /home/jmj/dream_ws/build/dream/build install --record /home/jmj/dream_ws/build/dream/install.log --single-version-externally-managed install_data
+[11.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_sensing_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_sensing_msgs -- -j20 -l20
+[11.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_sensing_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_sensing_msgs
+[11.327s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/dream' for CMake module files
+[11.327s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/dream' for CMake config files
+[11.328s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/dream/lib'
+[11.328s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/dream/bin'
+[11.328s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/dream/lib/pkgconfig/dream.pc'
+[11.328s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/dream/lib/python3.10/site-packages'
+[11.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('dream', 'pythonpath')
+[11.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/dream/share/dream/hook/pythonpath.ps1'
+[11.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/dream/share/dream/hook/pythonpath.dsv'
+[11.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/dream/share/dream/hook/pythonpath.sh'
+[11.330s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/dream/bin'
+[11.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dream)
+[11.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/dream/share/dream/package.ps1'
+[11.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/dream' returned '0': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/build/dream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jmj/dream_ws/install/dream/lib/python3.10/site-packages:/home/jmj/dream_ws/install/autoware_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dream build --build-base /home/jmj/dream_ws/build/dream/build install --record /home/jmj/dream_ws/build/dream/install.log --single-version-externally-managed install_data
+[11.331s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/dream/share/dream/package.dsv'
+[11.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/dream/share/dream/package.sh'
+[11.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/dream/share/dream/package.bash'
+[11.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/dream/share/dream/package.zsh'
+[11.333s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/dream/share/colcon-core/packages/dream)
+[11.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_sensing_msgs)
+[11.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_sensing_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_sensing_msgs
+[11.381s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_sensing_msgs' for CMake module files
+[11.381s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_sensing_msgs' for CMake config files
+[11.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_sensing_msgs', 'cmake_prefix_path')
+[11.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/hook/cmake_prefix_path.ps1'
+[11.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/hook/cmake_prefix_path.dsv'
+[11.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/hook/cmake_prefix_path.sh'
+[11.384s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_sensing_msgs/lib'
+[11.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_sensing_msgs', 'ld_library_path_lib')
+[11.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/hook/ld_library_path_lib.ps1'
+[11.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/hook/ld_library_path_lib.dsv'
+[11.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/hook/ld_library_path_lib.sh'
+[11.385s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_sensing_msgs/bin'
+[11.385s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_sensing_msgs/lib/pkgconfig/autoware_sensing_msgs.pc'
+[11.386s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_sensing_msgs/lib/python3.10/site-packages'
+[11.386s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_sensing_msgs/bin'
+[11.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/package.ps1'
+[11.387s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/package.dsv'
+[11.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/package.sh'
+[11.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/package.bash'
+[11.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/package.zsh'
+[11.388s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_sensing_msgs/share/colcon-core/packages/autoware_sensing_msgs)
+[11.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_sensing_msgs)
+[11.389s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_sensing_msgs' for CMake module files
+[11.390s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_sensing_msgs' for CMake config files
+[11.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_sensing_msgs', 'cmake_prefix_path')
+[11.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/hook/cmake_prefix_path.ps1'
+[11.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/hook/cmake_prefix_path.dsv'
+[11.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/hook/cmake_prefix_path.sh'
+[11.392s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_sensing_msgs/lib'
+[11.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_sensing_msgs', 'ld_library_path_lib')
+[11.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/hook/ld_library_path_lib.ps1'
+[11.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/hook/ld_library_path_lib.dsv'
+[11.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/hook/ld_library_path_lib.sh'
+[11.393s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_sensing_msgs/bin'
+[11.393s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_sensing_msgs/lib/pkgconfig/autoware_sensing_msgs.pc'
+[11.394s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_sensing_msgs/lib/python3.10/site-packages'
+[11.394s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_sensing_msgs/bin'
+[11.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/package.ps1'
+[11.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/package.dsv'
+[11.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/package.sh'
+[11.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/package.bash'
+[11.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_sensing_msgs/share/autoware_sensing_msgs/package.zsh'
+[11.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_sensing_msgs/share/colcon-core/packages/autoware_sensing_msgs)
+[12.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_vehicle_msgs' returned '0': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_msgs:/home/jmj/aw_data_ws/install/autoware_vehicle_msgs:/home/jmj/aw_data_ws/install/autoware_v2x_msgs:/home/jmj/aw_data_ws/install/autoware_system_msgs:/home/jmj/aw_data_ws/install/autoware_sensing_msgs:/home/jmj/aw_data_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_perception_msgs:/home/jmj/aw_data_ws/install/autoware_map_msgs:/home/jmj/aw_data_ws/install/autoware_localization_msgs:/home/jmj/aw_data_ws/install/autoware_control_msgs:/home/jmj/aw_data_ws/install/autoware_common_msgs:/home/jmj/dream_ws/install/dream:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_vehicle_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_vehicle_msgs
+[12.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_vehicle_msgs': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_msgs:/home/jmj/aw_data_ws/install/autoware_vehicle_msgs:/home/jmj/aw_data_ws/install/autoware_v2x_msgs:/home/jmj/aw_data_ws/install/autoware_system_msgs:/home/jmj/aw_data_ws/install/autoware_sensing_msgs:/home/jmj/aw_data_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_perception_msgs:/home/jmj/aw_data_ws/install/autoware_map_msgs:/home/jmj/aw_data_ws/install/autoware_localization_msgs:/home/jmj/aw_data_ws/install/autoware_control_msgs:/home/jmj/aw_data_ws/install/autoware_common_msgs:/home/jmj/dream_ws/install/dream:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_vehicle_msgs -- -j20 -l20
+[12.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_map_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_map_msgs -- -j20 -l20
+[12.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_map_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_map_msgs
+[12.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_map_msgs)
+[12.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_map_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_map_msgs
+[12.743s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_map_msgs' for CMake module files
+[12.743s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_map_msgs' for CMake config files
+[12.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_map_msgs', 'cmake_prefix_path')
+[12.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/hook/cmake_prefix_path.ps1'
+[12.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/hook/cmake_prefix_path.dsv'
+[12.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/hook/cmake_prefix_path.sh'
+[12.745s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_map_msgs/lib'
+[12.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_map_msgs', 'ld_library_path_lib')
+[12.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/hook/ld_library_path_lib.ps1'
+[12.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/hook/ld_library_path_lib.dsv'
+[12.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/hook/ld_library_path_lib.sh'
+[12.745s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_map_msgs/bin'
+[12.745s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_map_msgs/lib/pkgconfig/autoware_map_msgs.pc'
+[12.745s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_map_msgs/lib/python3.10/site-packages'
+[12.745s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_map_msgs/bin'
+[12.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/package.ps1'
+[12.746s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/package.dsv'
+[12.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/package.sh'
+[12.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/package.bash'
+[12.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/package.zsh'
+[12.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_map_msgs/share/colcon-core/packages/autoware_map_msgs)
+[12.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_map_msgs)
+[12.747s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_map_msgs' for CMake module files
+[12.747s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_map_msgs' for CMake config files
+[12.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_map_msgs', 'cmake_prefix_path')
+[12.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/hook/cmake_prefix_path.ps1'
+[12.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/hook/cmake_prefix_path.dsv'
+[12.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/hook/cmake_prefix_path.sh'
+[12.748s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_map_msgs/lib'
+[12.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_map_msgs', 'ld_library_path_lib')
+[12.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/hook/ld_library_path_lib.ps1'
+[12.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/hook/ld_library_path_lib.dsv'
+[12.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/hook/ld_library_path_lib.sh'
+[12.749s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_map_msgs/bin'
+[12.749s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_map_msgs/lib/pkgconfig/autoware_map_msgs.pc'
+[12.749s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_map_msgs/lib/python3.10/site-packages'
+[12.749s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_map_msgs/bin'
+[12.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/package.ps1'
+[12.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/package.dsv'
+[12.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/package.sh'
+[12.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/package.bash'
+[12.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_map_msgs/share/autoware_map_msgs/package.zsh'
+[12.751s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_map_msgs/share/colcon-core/packages/autoware_map_msgs)
+[13.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_perception_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_perception_msgs -- -j20 -l20
+[13.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_perception_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_perception_msgs
+[14.059s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_perception_msgs)
+[14.059s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_perception_msgs' for CMake module files
+[14.060s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_perception_msgs' for CMake config files
+[14.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_perception_msgs', 'cmake_prefix_path')
+[14.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/hook/cmake_prefix_path.ps1'
+[14.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_perception_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jmj/dream_ws/install/dream:/opt/ros/humble /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_perception_msgs
+[14.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/hook/cmake_prefix_path.dsv'
+[14.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/hook/cmake_prefix_path.sh'
+[14.064s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_perception_msgs/lib'
+[14.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_perception_msgs', 'ld_library_path_lib')
+[14.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/hook/ld_library_path_lib.ps1'
+[14.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/hook/ld_library_path_lib.dsv'
+[14.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/hook/ld_library_path_lib.sh'
+[14.069s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_perception_msgs/bin'
+[14.069s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_perception_msgs/lib/pkgconfig/autoware_perception_msgs.pc'
+[14.069s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_perception_msgs/lib/python3.10/site-packages'
+[14.069s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_perception_msgs/bin'
+[14.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/package.ps1'
+[14.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/package.dsv'
+[14.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/package.sh'
+[14.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/package.bash'
+[14.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/package.zsh'
+[14.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_perception_msgs/share/colcon-core/packages/autoware_perception_msgs)
+[14.073s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_perception_msgs)
+[14.074s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_perception_msgs' for CMake module files
+[14.074s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_perception_msgs' for CMake config files
+[14.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_perception_msgs', 'cmake_prefix_path')
+[14.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/hook/cmake_prefix_path.ps1'
+[14.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/hook/cmake_prefix_path.dsv'
+[14.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/hook/cmake_prefix_path.sh'
+[14.077s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_perception_msgs/lib'
+[14.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_perception_msgs', 'ld_library_path_lib')
+[14.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/hook/ld_library_path_lib.ps1'
+[14.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/hook/ld_library_path_lib.dsv'
+[14.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/hook/ld_library_path_lib.sh'
+[14.079s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_perception_msgs/bin'
+[14.079s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_perception_msgs/lib/pkgconfig/autoware_perception_msgs.pc'
+[14.079s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_perception_msgs/lib/python3.10/site-packages'
+[14.079s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_perception_msgs/bin'
+[14.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/package.ps1'
+[14.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/package.dsv'
+[14.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/package.sh'
+[14.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/package.bash'
+[14.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_perception_msgs/share/autoware_perception_msgs/package.zsh'
+[14.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_perception_msgs/share/colcon-core/packages/autoware_perception_msgs)
+[15.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_vehicle_msgs' returned '0': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_msgs:/home/jmj/aw_data_ws/install/autoware_vehicle_msgs:/home/jmj/aw_data_ws/install/autoware_v2x_msgs:/home/jmj/aw_data_ws/install/autoware_system_msgs:/home/jmj/aw_data_ws/install/autoware_sensing_msgs:/home/jmj/aw_data_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_perception_msgs:/home/jmj/aw_data_ws/install/autoware_map_msgs:/home/jmj/aw_data_ws/install/autoware_localization_msgs:/home/jmj/aw_data_ws/install/autoware_control_msgs:/home/jmj/aw_data_ws/install/autoware_common_msgs:/home/jmj/dream_ws/install/dream:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_vehicle_msgs -- -j20 -l20
+[15.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_vehicle_msgs': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_msgs:/home/jmj/aw_data_ws/install/autoware_vehicle_msgs:/home/jmj/aw_data_ws/install/autoware_v2x_msgs:/home/jmj/aw_data_ws/install/autoware_system_msgs:/home/jmj/aw_data_ws/install/autoware_sensing_msgs:/home/jmj/aw_data_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_perception_msgs:/home/jmj/aw_data_ws/install/autoware_map_msgs:/home/jmj/aw_data_ws/install/autoware_localization_msgs:/home/jmj/aw_data_ws/install/autoware_control_msgs:/home/jmj/aw_data_ws/install/autoware_common_msgs:/home/jmj/dream_ws/install/dream:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_vehicle_msgs
+[16.044s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_vehicle_msgs)
+[16.045s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_vehicle_msgs' for CMake module files
+[16.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_vehicle_msgs' returned '0': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_msgs:/home/jmj/aw_data_ws/install/autoware_vehicle_msgs:/home/jmj/aw_data_ws/install/autoware_v2x_msgs:/home/jmj/aw_data_ws/install/autoware_system_msgs:/home/jmj/aw_data_ws/install/autoware_sensing_msgs:/home/jmj/aw_data_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_perception_msgs:/home/jmj/aw_data_ws/install/autoware_map_msgs:/home/jmj/aw_data_ws/install/autoware_localization_msgs:/home/jmj/aw_data_ws/install/autoware_control_msgs:/home/jmj/aw_data_ws/install/autoware_common_msgs:/home/jmj/dream_ws/install/dream:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_planning_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_vehicle_msgs
+[16.045s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_vehicle_msgs' for CMake config files
+[16.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_vehicle_msgs', 'cmake_prefix_path')
+[16.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/hook/cmake_prefix_path.ps1'
+[16.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/hook/cmake_prefix_path.dsv'
+[16.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/hook/cmake_prefix_path.sh'
+[16.046s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_vehicle_msgs/lib'
+[16.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_vehicle_msgs', 'ld_library_path_lib')
+[16.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/hook/ld_library_path_lib.ps1'
+[16.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/hook/ld_library_path_lib.dsv'
+[16.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/hook/ld_library_path_lib.sh'
+[16.047s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_vehicle_msgs/bin'
+[16.047s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_vehicle_msgs/lib/pkgconfig/autoware_vehicle_msgs.pc'
+[16.047s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_vehicle_msgs/lib/python3.10/site-packages'
+[16.047s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_vehicle_msgs/bin'
+[16.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/package.ps1'
+[16.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/package.dsv'
+[16.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/package.sh'
+[16.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/package.bash'
+[16.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/package.zsh'
+[16.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/colcon-core/packages/autoware_vehicle_msgs)
+[16.049s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_vehicle_msgs)
+[16.049s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_vehicle_msgs' for CMake module files
+[16.049s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_vehicle_msgs' for CMake config files
+[16.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_vehicle_msgs', 'cmake_prefix_path')
+[16.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/hook/cmake_prefix_path.ps1'
+[16.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/hook/cmake_prefix_path.dsv'
+[16.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/hook/cmake_prefix_path.sh'
+[16.050s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_vehicle_msgs/lib'
+[16.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_vehicle_msgs', 'ld_library_path_lib')
+[16.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/hook/ld_library_path_lib.ps1'
+[16.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/hook/ld_library_path_lib.dsv'
+[16.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/hook/ld_library_path_lib.sh'
+[16.051s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_vehicle_msgs/bin'
+[16.051s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_vehicle_msgs/lib/pkgconfig/autoware_vehicle_msgs.pc'
+[16.051s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_vehicle_msgs/lib/python3.10/site-packages'
+[16.051s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_vehicle_msgs/bin'
+[16.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/package.ps1'
+[16.051s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/package.dsv'
+[16.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/package.sh'
+[16.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/package.bash'
+[16.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/package.zsh'
+[16.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_vehicle_msgs/share/colcon-core/packages/autoware_vehicle_msgs)
+[16.052s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jmj/dream_ws/autoware_msgs/autoware_msgs' with build type 'ament_cmake'
+[16.052s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jmj/dream_ws/autoware_msgs/autoware_msgs'
+[16.053s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.053s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_msgs': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs:/home/jmj/dream_ws/install/autoware_v2x_msgs:/home/jmj/dream_ws/install/autoware_system_msgs:/home/jmj/dream_ws/install/autoware_sensing_msgs:/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/dream_ws/install/autoware_perception_msgs:/home/jmj/dream_ws/install/autoware_map_msgs:/home/jmj/dream_ws/install/autoware_localization_msgs:/home/jmj/dream_ws/install/autoware_control_msgs:/home/jmj/dream_ws/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs:/home/jmj/dream_ws/install/autoware_v2x_msgs:/home/jmj/dream_ws/install/autoware_system_msgs:/home/jmj/dream_ws/install/autoware_sensing_msgs:/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/dream_ws/install/autoware_perception_msgs:/home/jmj/dream_ws/install/autoware_map_msgs:/home/jmj/dream_ws/install/autoware_localization_msgs:/home/jmj/dream_ws/install/autoware_control_msgs:/home/jmj/dream_ws/install/autoware_common_msgs:/home/jmj/aw_data_ws/install/autoware_msgs:/home/jmj/aw_data_ws/install/autoware_vehicle_msgs:/home/jmj/aw_data_ws/install/autoware_v2x_msgs:/home/jmj/aw_data_ws/install/autoware_system_msgs:/home/jmj/aw_data_ws/install/autoware_sensing_msgs:/home/jmj/aw_data_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_perception_msgs:/home/jmj/aw_data_ws/install/autoware_map_msgs:/home/jmj/aw_data_ws/install/autoware_localization_msgs:/home/jmj/aw_data_ws/install/autoware_control_msgs:/home/jmj/aw_data_ws/install/autoware_common_msgs:/home/jmj/dream_ws/install/dream:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs/lib:/home/jmj/dream_ws/install/autoware_v2x_msgs/lib:/home/jmj/dream_ws/install/autoware_system_msgs/lib:/home/jmj/dream_ws/install/autoware_sensing_msgs/lib:/home/jmj/dream_ws/install/autoware_planning_msgs/lib:/home/jmj/dream_ws/install/autoware_perception_msgs/lib:/home/jmj/dream_ws/install/autoware_map_msgs/lib:/home/jmj/dream_ws/install/autoware_localization_msgs/lib:/home/jmj/dream_ws/install/autoware_control_msgs/lib:/home/jmj/dream_ws/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_v2x_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_system_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_perception_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_map_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_localization_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_control_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_msgs
+[16.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_msgs' returned '0': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs:/home/jmj/dream_ws/install/autoware_v2x_msgs:/home/jmj/dream_ws/install/autoware_system_msgs:/home/jmj/dream_ws/install/autoware_sensing_msgs:/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/dream_ws/install/autoware_perception_msgs:/home/jmj/dream_ws/install/autoware_map_msgs:/home/jmj/dream_ws/install/autoware_localization_msgs:/home/jmj/dream_ws/install/autoware_control_msgs:/home/jmj/dream_ws/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs:/home/jmj/dream_ws/install/autoware_v2x_msgs:/home/jmj/dream_ws/install/autoware_system_msgs:/home/jmj/dream_ws/install/autoware_sensing_msgs:/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/dream_ws/install/autoware_perception_msgs:/home/jmj/dream_ws/install/autoware_map_msgs:/home/jmj/dream_ws/install/autoware_localization_msgs:/home/jmj/dream_ws/install/autoware_control_msgs:/home/jmj/dream_ws/install/autoware_common_msgs:/home/jmj/aw_data_ws/install/autoware_msgs:/home/jmj/aw_data_ws/install/autoware_vehicle_msgs:/home/jmj/aw_data_ws/install/autoware_v2x_msgs:/home/jmj/aw_data_ws/install/autoware_system_msgs:/home/jmj/aw_data_ws/install/autoware_sensing_msgs:/home/jmj/aw_data_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_perception_msgs:/home/jmj/aw_data_ws/install/autoware_map_msgs:/home/jmj/aw_data_ws/install/autoware_localization_msgs:/home/jmj/aw_data_ws/install/autoware_control_msgs:/home/jmj/aw_data_ws/install/autoware_common_msgs:/home/jmj/dream_ws/install/dream:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs/lib:/home/jmj/dream_ws/install/autoware_v2x_msgs/lib:/home/jmj/dream_ws/install/autoware_system_msgs/lib:/home/jmj/dream_ws/install/autoware_sensing_msgs/lib:/home/jmj/dream_ws/install/autoware_planning_msgs/lib:/home/jmj/dream_ws/install/autoware_perception_msgs/lib:/home/jmj/dream_ws/install/autoware_map_msgs/lib:/home/jmj/dream_ws/install/autoware_localization_msgs/lib:/home/jmj/dream_ws/install/autoware_control_msgs/lib:/home/jmj/dream_ws/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_v2x_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_system_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_perception_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_map_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_localization_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_control_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jmj/dream_ws/autoware_msgs/autoware_msgs -DCMAKE_INSTALL_PREFIX=/home/jmj/dream_ws/install/autoware_msgs
+[16.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_msgs': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs:/home/jmj/dream_ws/install/autoware_v2x_msgs:/home/jmj/dream_ws/install/autoware_system_msgs:/home/jmj/dream_ws/install/autoware_sensing_msgs:/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/dream_ws/install/autoware_perception_msgs:/home/jmj/dream_ws/install/autoware_map_msgs:/home/jmj/dream_ws/install/autoware_localization_msgs:/home/jmj/dream_ws/install/autoware_control_msgs:/home/jmj/dream_ws/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs:/home/jmj/dream_ws/install/autoware_v2x_msgs:/home/jmj/dream_ws/install/autoware_system_msgs:/home/jmj/dream_ws/install/autoware_sensing_msgs:/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/dream_ws/install/autoware_perception_msgs:/home/jmj/dream_ws/install/autoware_map_msgs:/home/jmj/dream_ws/install/autoware_localization_msgs:/home/jmj/dream_ws/install/autoware_control_msgs:/home/jmj/dream_ws/install/autoware_common_msgs:/home/jmj/aw_data_ws/install/autoware_msgs:/home/jmj/aw_data_ws/install/autoware_vehicle_msgs:/home/jmj/aw_data_ws/install/autoware_v2x_msgs:/home/jmj/aw_data_ws/install/autoware_system_msgs:/home/jmj/aw_data_ws/install/autoware_sensing_msgs:/home/jmj/aw_data_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_perception_msgs:/home/jmj/aw_data_ws/install/autoware_map_msgs:/home/jmj/aw_data_ws/install/autoware_localization_msgs:/home/jmj/aw_data_ws/install/autoware_control_msgs:/home/jmj/aw_data_ws/install/autoware_common_msgs:/home/jmj/dream_ws/install/dream:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs/lib:/home/jmj/dream_ws/install/autoware_v2x_msgs/lib:/home/jmj/dream_ws/install/autoware_system_msgs/lib:/home/jmj/dream_ws/install/autoware_sensing_msgs/lib:/home/jmj/dream_ws/install/autoware_planning_msgs/lib:/home/jmj/dream_ws/install/autoware_perception_msgs/lib:/home/jmj/dream_ws/install/autoware_map_msgs/lib:/home/jmj/dream_ws/install/autoware_localization_msgs/lib:/home/jmj/dream_ws/install/autoware_control_msgs/lib:/home/jmj/dream_ws/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_v2x_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_system_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_perception_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_map_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_localization_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_control_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_msgs -- -j20 -l20
+[16.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_msgs' returned '0': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs:/home/jmj/dream_ws/install/autoware_v2x_msgs:/home/jmj/dream_ws/install/autoware_system_msgs:/home/jmj/dream_ws/install/autoware_sensing_msgs:/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/dream_ws/install/autoware_perception_msgs:/home/jmj/dream_ws/install/autoware_map_msgs:/home/jmj/dream_ws/install/autoware_localization_msgs:/home/jmj/dream_ws/install/autoware_control_msgs:/home/jmj/dream_ws/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs:/home/jmj/dream_ws/install/autoware_v2x_msgs:/home/jmj/dream_ws/install/autoware_system_msgs:/home/jmj/dream_ws/install/autoware_sensing_msgs:/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/dream_ws/install/autoware_perception_msgs:/home/jmj/dream_ws/install/autoware_map_msgs:/home/jmj/dream_ws/install/autoware_localization_msgs:/home/jmj/dream_ws/install/autoware_control_msgs:/home/jmj/dream_ws/install/autoware_common_msgs:/home/jmj/aw_data_ws/install/autoware_msgs:/home/jmj/aw_data_ws/install/autoware_vehicle_msgs:/home/jmj/aw_data_ws/install/autoware_v2x_msgs:/home/jmj/aw_data_ws/install/autoware_system_msgs:/home/jmj/aw_data_ws/install/autoware_sensing_msgs:/home/jmj/aw_data_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_perception_msgs:/home/jmj/aw_data_ws/install/autoware_map_msgs:/home/jmj/aw_data_ws/install/autoware_localization_msgs:/home/jmj/aw_data_ws/install/autoware_control_msgs:/home/jmj/aw_data_ws/install/autoware_common_msgs:/home/jmj/dream_ws/install/dream:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs/lib:/home/jmj/dream_ws/install/autoware_v2x_msgs/lib:/home/jmj/dream_ws/install/autoware_system_msgs/lib:/home/jmj/dream_ws/install/autoware_sensing_msgs/lib:/home/jmj/dream_ws/install/autoware_planning_msgs/lib:/home/jmj/dream_ws/install/autoware_perception_msgs/lib:/home/jmj/dream_ws/install/autoware_map_msgs/lib:/home/jmj/dream_ws/install/autoware_localization_msgs/lib:/home/jmj/dream_ws/install/autoware_control_msgs/lib:/home/jmj/dream_ws/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_v2x_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_system_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_perception_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_map_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_localization_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_control_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jmj/dream_ws/build/autoware_msgs -- -j20 -l20
+[16.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jmj/dream_ws/build/autoware_msgs': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs:/home/jmj/dream_ws/install/autoware_v2x_msgs:/home/jmj/dream_ws/install/autoware_system_msgs:/home/jmj/dream_ws/install/autoware_sensing_msgs:/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/dream_ws/install/autoware_perception_msgs:/home/jmj/dream_ws/install/autoware_map_msgs:/home/jmj/dream_ws/install/autoware_localization_msgs:/home/jmj/dream_ws/install/autoware_control_msgs:/home/jmj/dream_ws/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs:/home/jmj/dream_ws/install/autoware_v2x_msgs:/home/jmj/dream_ws/install/autoware_system_msgs:/home/jmj/dream_ws/install/autoware_sensing_msgs:/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/dream_ws/install/autoware_perception_msgs:/home/jmj/dream_ws/install/autoware_map_msgs:/home/jmj/dream_ws/install/autoware_localization_msgs:/home/jmj/dream_ws/install/autoware_control_msgs:/home/jmj/dream_ws/install/autoware_common_msgs:/home/jmj/aw_data_ws/install/autoware_msgs:/home/jmj/aw_data_ws/install/autoware_vehicle_msgs:/home/jmj/aw_data_ws/install/autoware_v2x_msgs:/home/jmj/aw_data_ws/install/autoware_system_msgs:/home/jmj/aw_data_ws/install/autoware_sensing_msgs:/home/jmj/aw_data_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_perception_msgs:/home/jmj/aw_data_ws/install/autoware_map_msgs:/home/jmj/aw_data_ws/install/autoware_localization_msgs:/home/jmj/aw_data_ws/install/autoware_control_msgs:/home/jmj/aw_data_ws/install/autoware_common_msgs:/home/jmj/dream_ws/install/dream:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs/lib:/home/jmj/dream_ws/install/autoware_v2x_msgs/lib:/home/jmj/dream_ws/install/autoware_system_msgs/lib:/home/jmj/dream_ws/install/autoware_sensing_msgs/lib:/home/jmj/dream_ws/install/autoware_planning_msgs/lib:/home/jmj/dream_ws/install/autoware_perception_msgs/lib:/home/jmj/dream_ws/install/autoware_map_msgs/lib:/home/jmj/dream_ws/install/autoware_localization_msgs/lib:/home/jmj/dream_ws/install/autoware_control_msgs/lib:/home/jmj/dream_ws/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_v2x_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_system_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_perception_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_map_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_localization_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_control_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_msgs
+[16.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_msgs)
+[16.787s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_msgs' for CMake module files
+[16.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jmj/dream_ws/build/autoware_msgs' returned '0': AMENT_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs:/home/jmj/dream_ws/install/autoware_v2x_msgs:/home/jmj/dream_ws/install/autoware_system_msgs:/home/jmj/dream_ws/install/autoware_sensing_msgs:/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/dream_ws/install/autoware_perception_msgs:/home/jmj/dream_ws/install/autoware_map_msgs:/home/jmj/dream_ws/install/autoware_localization_msgs:/home/jmj/dream_ws/install/autoware_control_msgs:/home/jmj/dream_ws/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs:/home/jmj/dream_ws/install/autoware_v2x_msgs:/home/jmj/dream_ws/install/autoware_system_msgs:/home/jmj/dream_ws/install/autoware_sensing_msgs:/home/jmj/dream_ws/install/autoware_planning_msgs:/home/jmj/dream_ws/install/autoware_perception_msgs:/home/jmj/dream_ws/install/autoware_map_msgs:/home/jmj/dream_ws/install/autoware_localization_msgs:/home/jmj/dream_ws/install/autoware_control_msgs:/home/jmj/dream_ws/install/autoware_common_msgs:/home/jmj/aw_data_ws/install/autoware_msgs:/home/jmj/aw_data_ws/install/autoware_vehicle_msgs:/home/jmj/aw_data_ws/install/autoware_v2x_msgs:/home/jmj/aw_data_ws/install/autoware_system_msgs:/home/jmj/aw_data_ws/install/autoware_sensing_msgs:/home/jmj/aw_data_ws/install/autoware_planning_msgs:/home/jmj/aw_data_ws/install/autoware_perception_msgs:/home/jmj/aw_data_ws/install/autoware_map_msgs:/home/jmj/aw_data_ws/install/autoware_localization_msgs:/home/jmj/aw_data_ws/install/autoware_control_msgs:/home/jmj/aw_data_ws/install/autoware_common_msgs:/home/jmj/dream_ws/install/dream:/opt/ros/humble LD_LIBRARY_PATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs/lib:/home/jmj/dream_ws/install/autoware_v2x_msgs/lib:/home/jmj/dream_ws/install/autoware_system_msgs/lib:/home/jmj/dream_ws/install/autoware_sensing_msgs/lib:/home/jmj/dream_ws/install/autoware_planning_msgs/lib:/home/jmj/dream_ws/install/autoware_perception_msgs/lib:/home/jmj/dream_ws/install/autoware_map_msgs/lib:/home/jmj/dream_ws/install/autoware_localization_msgs/lib:/home/jmj/dream_ws/install/autoware_control_msgs/lib:/home/jmj/dream_ws/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jmj/dream_ws/install/autoware_vehicle_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_v2x_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_system_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_perception_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_map_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_localization_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_control_msgs/local/lib/python3.10/dist-packages:/home/jmj/dream_ws/install/autoware_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jmj/dream_ws/build/autoware_msgs
+[16.787s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_msgs' for CMake config files
+[16.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_msgs', 'cmake_prefix_path')
+[16.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/hook/cmake_prefix_path.ps1'
+[16.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/hook/cmake_prefix_path.dsv'
+[16.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/hook/cmake_prefix_path.sh'
+[16.788s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_msgs/bin'
+[16.788s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_msgs/lib/pkgconfig/autoware_msgs.pc'
+[16.788s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_msgs/lib/python3.10/site-packages'
+[16.788s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_msgs/bin'
+[16.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/package.ps1'
+[16.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/package.dsv'
+[16.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/package.sh'
+[16.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/package.bash'
+[16.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/package.zsh'
+[16.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_msgs/share/colcon-core/packages/autoware_msgs)
+[16.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoware_msgs)
+[16.790s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_msgs' for CMake module files
+[16.790s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_msgs' for CMake config files
+[16.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoware_msgs', 'cmake_prefix_path')
+[16.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/hook/cmake_prefix_path.ps1'
+[16.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/hook/cmake_prefix_path.dsv'
+[16.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/hook/cmake_prefix_path.sh'
+[16.791s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_msgs/bin'
+[16.791s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_msgs/lib/pkgconfig/autoware_msgs.pc'
+[16.791s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_msgs/lib/python3.10/site-packages'
+[16.792s] Level 1:colcon.colcon_core.environment:checking '/home/jmj/dream_ws/install/autoware_msgs/bin'
+[16.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/package.ps1'
+[16.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/package.dsv'
+[16.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/package.sh'
+[16.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/package.bash'
+[16.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/jmj/dream_ws/install/autoware_msgs/share/autoware_msgs/package.zsh'
+[16.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jmj/dream_ws/install/autoware_msgs/share/colcon-core/packages/autoware_msgs)
+[16.793s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.793s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.793s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.793s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.798s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.798s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.798s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.807s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.807s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jmj/dream_ws/install/local_setup.ps1'
+[16.808s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jmj/dream_ws/install/_local_setup_util_ps1.py'
+[16.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jmj/dream_ws/install/setup.ps1'
+[16.809s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jmj/dream_ws/install/local_setup.sh'
+[16.810s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jmj/dream_ws/install/_local_setup_util_sh.py'
+[16.810s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jmj/dream_ws/install/setup.sh'
+[16.810s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jmj/dream_ws/install/local_setup.bash'
+[16.811s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jmj/dream_ws/install/setup.bash'
+[16.811s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jmj/dream_ws/install/local_setup.zsh'
+[16.811s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jmj/dream_ws/install/setup.zsh'
