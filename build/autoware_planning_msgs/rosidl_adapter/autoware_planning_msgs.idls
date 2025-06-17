@@ -1,8 +1,0 @@
-/home/jmj/dream_ws/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/LaneletPrimitive.idl
-/home/jmj/dream_ws/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/LaneletRoute.idl
-/home/jmj/dream_ws/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/LaneletSegment.idl
-/home/jmj/dream_ws/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/PoseWithUuidStamped.idl
-/home/jmj/dream_ws/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/Trajectory.idl
-/home/jmj/dream_ws/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/TrajectoryPoint.idl
-/home/jmj/dream_ws/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/Path.idl
-/home/jmj/dream_ws/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/PathPoint.idl

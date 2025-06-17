@@ -1,4 +1,4 @@
 Autoware Control Command Observed Limits:
-Max Linear Velocity: 0.000000 m/s
-Min Linear Velocity: 0.000000 m/s
-Max Steering Angle:  0.000000 rad
+Max Linear Velocity: 2.777781 
+Min Linear Velocity: 0.000000 
+Max Steering Angle:  0.177283 

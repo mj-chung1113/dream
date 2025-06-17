@@ -1,9 +1,0 @@
-{
-  "package_name": "autoware_v2x_msgs",
-  "non_idl_tuples": [
-    "/home/jmj/dream_ws/autoware_msgs/autoware_v2x_msgs:msg/VirtualGateAreaCommand.msg",
-    "/home/jmj/dream_ws/autoware_msgs/autoware_v2x_msgs:msg/VirtualGateAreaStatus.msg",
-    "/home/jmj/dream_ws/autoware_msgs/autoware_v2x_msgs:msg/VirtualGateCommand.msg",
-    "/home/jmj/dream_ws/autoware_msgs/autoware_v2x_msgs:msg/VirtualGateStatus.msg"
-  ]
-}

@@ -1,8 +1,0 @@
-{
-  "package_name": "autoware_system_msgs",
-  "non_idl_tuples": [
-    "/home/jmj/dream_ws/autoware_msgs/autoware_system_msgs:msg/AutowareState.msg",
-    "/home/jmj/dream_ws/autoware_msgs/autoware_system_msgs:msg/HazardStatus.msg",
-    "/home/jmj/dream_ws/autoware_msgs/autoware_system_msgs:msg/HazardStatusStamped.msg"
-  ]
-}

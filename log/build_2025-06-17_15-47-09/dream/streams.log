@@ -1,0 +1,55 @@
+[0.476s] Invoking command in '/home/jmj/dream_ws/dream': PYTHONPATH=/home/jmj/dream_ws/build/dream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jmj/dream_ws/install/dream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dream build --build-base /home/jmj/dream_ws/build/dream/build install --record /home/jmj/dream_ws/build/dream/install.log --single-version-externally-managed install_data
+[0.617s] running egg_info
+[0.617s] creating ../build/dream/dream.egg-info
+[0.617s] writing ../build/dream/dream.egg-info/PKG-INFO
+[0.618s] writing dependency_links to ../build/dream/dream.egg-info/dependency_links.txt
+[0.618s] writing entry points to ../build/dream/dream.egg-info/entry_points.txt
+[0.618s] writing requirements to ../build/dream/dream.egg-info/requires.txt
+[0.618s] writing top-level names to ../build/dream/dream.egg-info/top_level.txt
+[0.618s] writing manifest file '../build/dream/dream.egg-info/SOURCES.txt'
+[0.619s] reading manifest file '../build/dream/dream.egg-info/SOURCES.txt'
+[0.620s] writing manifest file '../build/dream/dream.egg-info/SOURCES.txt'
+[0.620s] running build
+[0.620s] running build_py
+[0.620s] creating /home/jmj/dream_ws/build/dream/build
+[0.620s] creating /home/jmj/dream_ws/build/dream/build/lib
+[0.620s] creating /home/jmj/dream_ws/build/dream/build/lib/dream
+[0.620s] copying dream/__init__.py -> /home/jmj/dream_ws/build/dream/build/lib/dream
+[0.620s] copying dream/setup.py -> /home/jmj/dream_ws/build/dream/build/lib/dream
+[0.620s] copying dream/bridge_node.py -> /home/jmj/dream_ws/build/dream/build/lib/dream
+[0.620s] copying dream/mapper.py -> /home/jmj/dream_ws/build/dream/build/lib/dream
+[0.620s] creating /home/jmj/dream_ws/build/dream/build/lib/dream/dream
+[0.620s] copying dream/dream/__init__.py -> /home/jmj/dream_ws/build/dream/build/lib/dream/dream
+[0.621s] copying dream/dream/bridge_node.py -> /home/jmj/dream_ws/build/dream/build/lib/dream/dream
+[0.621s] copying dream/dream/mapper.py -> /home/jmj/dream_ws/build/dream/build/lib/dream/dream
+[0.621s] running install
+[0.621s] running install_lib
+[0.621s] creating /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream
+[0.621s] copying /home/jmj/dream_ws/build/dream/build/lib/dream/__init__.py -> /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream
+[0.621s] copying /home/jmj/dream_ws/build/dream/build/lib/dream/setup.py -> /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream
+[0.621s] copying /home/jmj/dream_ws/build/dream/build/lib/dream/bridge_node.py -> /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream
+[0.621s] copying /home/jmj/dream_ws/build/dream/build/lib/dream/mapper.py -> /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream
+[0.621s] creating /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/dream
+[0.621s] copying /home/jmj/dream_ws/build/dream/build/lib/dream/dream/__init__.py -> /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/dream
+[0.621s] copying /home/jmj/dream_ws/build/dream/build/lib/dream/dream/bridge_node.py -> /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/dream
+[0.621s] copying /home/jmj/dream_ws/build/dream/build/lib/dream/dream/mapper.py -> /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/dream
+[0.621s] byte-compiling /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/__init__.py to __init__.cpython-310.pyc
+[0.621s] byte-compiling /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/setup.py to setup.cpython-310.pyc
+[0.622s] byte-compiling /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/bridge_node.py to bridge_node.cpython-310.pyc
+[0.622s] byte-compiling /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/mapper.py to mapper.cpython-310.pyc
+[0.622s] byte-compiling /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/dream/__init__.py to __init__.cpython-310.pyc
+[0.622s] byte-compiling /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/dream/bridge_node.py to bridge_node.cpython-310.pyc
+[0.622s] byte-compiling /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream/dream/mapper.py to mapper.cpython-310.pyc
+[0.623s] running install_data
+[0.623s] creating /home/jmj/dream_ws/install/dream/share/ament_index
+[0.623s] creating /home/jmj/dream_ws/install/dream/share/ament_index/resource_index
+[0.623s] creating /home/jmj/dream_ws/install/dream/share/ament_index/resource_index/packages
+[0.623s] copying resource/dream -> /home/jmj/dream_ws/install/dream/share/ament_index/resource_index/packages
+[0.623s] copying package.xml -> /home/jmj/dream_ws/install/dream/share/dream
+[0.623s] running install_egg_info
+[0.624s] Copying ../build/dream/dream.egg-info to /home/jmj/dream_ws/install/dream/lib/python3.10/site-packages/dream-0.0.0-py3.10.egg-info
+[0.624s] running install_scripts
+[0.636s] Installing bridge_node script to /home/jmj/dream_ws/install/dream/lib/dream
+[0.636s] Installing mapper script to /home/jmj/dream_ws/install/dream/lib/dream
+[0.636s] writing list of installed files to '/home/jmj/dream_ws/build/dream/install.log'
+[0.649s] Invoked command in '/home/jmj/dream_ws/dream' returned '0': PYTHONPATH=/home/jmj/dream_ws/build/dream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jmj/dream_ws/install/dream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/dream build --build-base /home/jmj/dream_ws/build/dream/build install --record /home/jmj/dream_ws/build/dream/install.log --single-version-externally-managed install_data

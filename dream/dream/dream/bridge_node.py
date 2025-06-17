@@ -8,17 +8,12 @@ PLATFORM_MIN_LINEAR_VELOCITY = -0.5  # m/s
 PLATFORM_MAX_STEERING_ANGLE = 0.443  # radians
 PLATFORM_MIN_STEERING_ANGLE = -0.443  # radians 
 
-AW_MAX_STEERING_ANGLE = 0.443    # radians
+AW_MAX_LINEAR_VELOCITY = 15.0  # m/s
+AW_MAX_STEERING_ANGLE = 0.6    # radians
 
 class ControlCmdToCmdVelBridge(Node):
     def __init__(self):
         super().__init__('control_cmd_to_cmd_vel_bridge')
-
-        # Declare parameter with default value
-        self.declare_parameter('aw_max_linear_velocity', 3.0)
-
-        # Get parameter value
-        self.aw_max_linear_velocity = self.get_parameter('aw_max_linear_velocity').get_parameter_value().double_value
 
         self.create_subscription(Control, '/control/command/control_cmd', self.control_cmd_callback, 10)
         self.cmd_vel_pub = self.create_publisher(Twist, '/cmd_vel', 10)
@@ -32,10 +27,10 @@ class ControlCmdToCmdVelBridge(Node):
         raw_steering = msg.lateral.steering_tire_angle
 
         # 선속도 매핑 (비례 스케일링)
-        linear_scale = PLATFORM_MAX_LINEAR_VELOCITY / self.aw_max_linear_velocity
+        linear_scale = PLATFORM_MAX_LINEAR_VELOCITY / AW_MAX_LINEAR_VELOCITY
         linear = raw_linear * linear_scale
 
-        # 조향각 매핑
+        # 조향각 매핑 (비례 스케일링)
         steering_scale = PLATFORM_MAX_STEERING_ANGLE / AW_MAX_STEERING_ANGLE
         angular = raw_steering * steering_scale
 
@@ -48,3 +43,18 @@ class ControlCmdToCmdVelBridge(Node):
 
         self.cmd_vel_pub.publish(twist)
         self.get_logger().debug(f"Published cmd_vel: linear.x={twist.linear.x}, angular.z={twist.angular.z}")
+  
+    
+def main(args=None):
+    rclpy.init(args=args)
+    node = ControlCmdToCmdVelBridge()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

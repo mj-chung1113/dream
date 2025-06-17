@@ -11,6 +11,10 @@ setup.py
 dream/__init__.py
 dream/bridge_node.py
 dream/mapper.py
+dream/setup.py
+dream/dream/__init__.py
+dream/dream/bridge_node.py
+dream/dream/mapper.py
 resource/dream
 test/test_copyright.py
 test/test_flake8.py
